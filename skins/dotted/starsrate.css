@@ -1,0 +1,187 @@
+    .STARSRATE .dotted #RATEPAGE ul
+    {
+        margin: 0;
+	    padding: 0;
+    }
+    
+    .STARSRATE .dotted #RATEPAGE .unit-rating li
+    {
+        margin: 0px 0 0;
+	    padding: 0;
+    }
+    
+    .STARSRATE .dotted #RATEPAGE .unit-rating li:before
+    {
+        content: '';
+    }
+            
+    .STARSRATE .dotted
+    {
+        width: 160px; 
+        height: 22px; 
+    }
+        
+    .STARSRATE div
+    {        
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .STARSRATE .dotted a
+    {
+        padding: 0px;
+        margin: 0px;	
+    	border: 0px;
+        background-color: transparent;
+    }
+    
+    .STARSRATE .dotted .unit-rating a{
+        padding: 0px;
+        border: 0px;    
+        outline: none;
+    }
+
+	/*             styles for the unit rater                */	
+	.STARSRATE .dotted .unit-rating{
+		list-style:none;
+		margin: 0px;
+		padding:0px;
+		width: 100px;
+		height: 20px;
+		position: relative;
+		background: url('./starsrate.gif') top left repeat-x;
+        	
+	}
+	
+	.STARSRATE .dotted .unit-rating li{
+	    text-indent: -90000px;
+		padding:0px;
+		margin:0px;
+		/*\*/
+		float: left;
+		/* */
+        height: 0px; /* firefox weird */
+        
+	}
+    
+	.STARSRATE .dotted .unit-rating li a{
+		display:block;
+		width:20px;
+		height: 20px;
+		text-decoration: none;
+		text-indent: -9000px;
+		z-index: 20;
+		position: absolute;
+    }
+    
+	.STARSRATE .dotted .unit-rating li a:hover{
+		background: url('./starsrate.gif') left center;
+		z-index: 2;
+		left: 0px;
+                
+	}
+    
+	.STARSRATE .dotted .unit-rating a.r1-unit{left: 0px;}
+	.STARSRATE .dotted .unit-rating a.r1-unit:hover{width:20px;}
+	.STARSRATE .dotted .unit-rating a.r2-unit{left:20px;}
+	.STARSRATE .dotted .unit-rating a.r2-unit:hover{width: 40px;}
+	.STARSRATE .dotted .unit-rating a.r3-unit{left: 40px;}
+	.STARSRATE .dotted .unit-rating a.r3-unit:hover{width: 60px;}
+	.STARSRATE .dotted .unit-rating a.r4-unit{left: 60px;}	
+	.STARSRATE .dotted .unit-rating a.r4-unit:hover{width: 80px;}
+	.STARSRATE .dotted .unit-rating a.r5-unit{left: 80px;}
+	.STARSRATE .dotted .unit-rating a.r5-unit:hover{width: 100px;}
+	
+    .STARSRATE .dotted .unit-rating li.current-rating{
+		background: url('./starsrate.gif') left bottom;
+		position: absolute;
+		height: 20px;
+		display: block;
+		text-indent: -9000px;
+		z-index: 1;        
+	}	
+    
+    .STARSRATE .dotted .starsratebox
+    {
+        width: 100%;
+        border: 1px solid #dedede;
+        border-collapse: collapse;       
+    }
+    
+    .STARSRATE .dotted .starsratebox td
+    {
+        border: 0px;
+        padding: 0px 0px 0px 2px;
+        background-color: #fff;
+    }
+    
+    .STARSRATE .dotted .starsratebox a:active,
+    .STARSRATE .dotted .starsratebox a:link,
+    .STARSRATE .dotted .starsratebox a:visited,
+    .STARSRATE .dotted .starsratebox a:hover
+    {
+        text-decoration: none;
+        color: #666;
+        font-size: 11px;
+        padding: 0px;
+        border: 0px; 
+    }
+    
+    .STARSRATE .dotted .loadingbox
+    {
+        width: 100px; 
+        height: 20px;
+        background: url('./loading.gif') no-repeat top center;
+    }
+    
+    
+    .STARSRATE .dotted #RATEPAGE_OP 
+    {
+        position: absolute;
+        font-family: Arial, Helvetica;
+        color: #666;
+        border-top: none;
+        border-left: solid 1px #dedede;
+        border-right: solid 1px #dedede;
+        border-bottom: solid 1px #dedede;
+        background-color: #fff;
+	    z-index: 2;
+        width: 160px;
+        height: 60px;
+    }
+    
+    .STARSRATE .dotted #RATEPAGE_OP textarea
+    {
+        font-family: Arial, Helvetica;
+        font-size: 10px;
+        color: #666;
+        border: none;
+        padding-left: 3px;
+        height: 41px;
+        border-width: 0px;
+        background-color: #fff;
+    }
+    
+    .STARSRATE .partner
+    {
+        font-size:9px;
+        border: 0px;
+        width:100%;
+        text-align: right;
+        z-index: 1;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        border: 0px;
+    }   
+    
+    .STARSRATE .partner a:active, .partner a:link, .partner a:visited, .partner a:hover
+    {
+        font-size:9px;
+        color: #777;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    	border: 0px;
+        background-color: transparent;
+        z-index: 1;
+    }
